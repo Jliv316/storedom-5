@@ -26,6 +26,7 @@ group :development, :test do
   gem 'pry'
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'launchy'
   gem 'rspec-rails'
   gem 'webmock'
 end
