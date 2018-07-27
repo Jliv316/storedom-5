@@ -2,8 +2,10 @@
 <h2><%= @stores.count%> total stores </h2>
 <% @stores.each do |store| %>
 <ul>
-  <li><%= store.name %></li>
-  <li><%= store.store_id %></li>
-  <li><%= store.store_type %></li>
+  <li>Name: <%= store.longName %></li>
+  <li>City: <%= store.city %></li>
+  <li>Distance: <%= store.distance %></li>
+  <li>Phone Number: <%= store.phone %></li>
+  <li>Store Type: <%= store.storeType %></li>
   </ul>
 <%end%>
