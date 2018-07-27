@@ -1,0 +1,84 @@
+{
+  "from": 1,
+  "to": 14,
+  "currentPage": 1,
+  "total": 14,
+  "totalPages": 1,
+  "queryTime": "0.022",
+  "totalTime": "0.031",
+  "partial": false,
+  "canonicalUrl": "/v1/stores(area(\"80202\",25))?show=storeId,storeType,name&pageSize=14&format=json&apiKey=tq72hpvtbbd4mue6f23kmsw2",
+  "stores": [
+    {
+      "storeId": 1224,
+      "storeType": "Big Box",
+      "name": "BELMAR CO"
+    },
+    {
+      "storeId": 211,
+      "storeType": "Big Box",
+      "name": "COLORADO BLVD CO"
+    },
+    {
+      "storeId": 382,
+      "storeType": "Big Box",
+      "name": "DENVER WEST CO"
+    },
+    {
+      "storeId": 209,
+      "storeType": "Big Box",
+      "name": "WESTMINSTER CO"
+    },
+    {
+      "storeId": 1416,
+      "storeType": "Big Box",
+      "name": "NORTHGLENN CO"
+    },
+    {
+      "storeId": 217,
+      "storeType": "Big Box",
+      "name": "AURORA CO"
+    },
+    {
+      "storeId": 210,
+      "storeType": "Big Box",
+      "name": "LITTLETON CO"
+    },
+    {
+      "storeId": 1171,
+      "storeType": "Big Box",
+      "name": "SOUTHGLENN CO"
+    },
+    {
+      "storeId": 1134,
+      "storeType": "Big Box",
+      "name": "I-70 AND TOWER RD CO"
+    },
+    {
+      "storeId": 164,
+      "storeType": "Big Box",
+      "name": "SE DENVER CO"
+    },
+    {
+      "storeId": 1232,
+      "storeType": "Warehouse Sale",
+      "name": "DENVER SALE EVENT"
+    },
+    {
+      "storeId": 694,
+      "storeType": "Big Box",
+      "name": "SE AURORA CO"
+    },
+    {
+      "storeId": 1410,
+      "storeType": "Big Box",
+      "name": "PARKER CO"
+    },
+    {
+      "storeId": 1031,
+      "storeType": "Big Box",
+      "name": "BOULDER CO"
+    }
+  ],
+  "warnings": "Distances are in terms of miles (default)"
+}

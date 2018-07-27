@@ -7,7 +7,7 @@ Rails.application.routes.draw do
     end
   end
 
-  
+  get '/search', to: "search#index"
   resources :orders, only: [:index, :show]
   resources :users, only: [:index, :show]
 end
