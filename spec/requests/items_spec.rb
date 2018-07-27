@@ -11,8 +11,10 @@ describe 'When I send a GET request to /api/v1/items' do
 
     json = JSON.parse(response.body, symbolize_names: true)
 
-    expect(json[:items][0][:name]).to eq("Chicken and Waffles")
-    expect(json[:items][0][:description]).to eq("we're talin chicken and waffles")
-    expect(json[:items][0][:image_url]).to eq('http://robohash.org/#{i}.png?set=set2&bgset=bg1&size=200x200')
+    binding.pry
+    expect(response).to be_successful
+    expect(json[0][:name]).to eq("Chicken and Waffles")
+    expect(json[0][:description]).to eq("we're talin chicken and waffles")
+    expect(json[0][:image_url]).to eq('http://robohash.org/#{i}.png?set=set2&bgset=bg1&size=200x200')
   end
 end
