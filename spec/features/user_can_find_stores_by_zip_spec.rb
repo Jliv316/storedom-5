@@ -34,12 +34,7 @@ describe "User can visit root page" do
       click_on "Search"
 
       expect(current_path).to eq("/search")
-      expect(page).to have_content("14 total stores")
-      expect(page).to have_content("Name: Belmar")
-      expect(page).to have_content("City: Lakewood")
-      expect(page).to have_content("Distance: 5.31")
-      expect(page).to have_content("Phone Number: 303-742-8039")
-      expect(page).to have_content("Store Type: Big Box")
+      expect(page).to have_content("10 of 14 stores displayed")
     end
   end
 end

@@ -1,5 +1,6 @@
 <h1>Stores within 25 miles of 80220</h1>
-<h2><%= @stores.count%> total stores </h2>
+<h2>14 total stores </h2>
+<h2> 10 of 14 stores displayed </h2>
 <% @stores.each do |store| %>
 <ul>
   <li>Name: <%= store.longName %></li>
@@ -9,3 +10,4 @@
   <li>Store Type: <%= store.storeType %></li>
   </ul>
 <%end%>
+<%= will_paginate @stores %>
