@@ -43,3 +43,23 @@ describe 'When I send a DELETE request to /api/v1/items/:id' do
   end
 end
 
+describe 'When I send a POST request to /api/v1/items' do
+  it 'I receive a 201 JSON  response if the record is successfully created' do
+    it 'I receive a JSON response containing the id, name, description, and image_url but not the created_at or updated_at'
+      item = Item.create(name: "Chicken and Waffles", description: "we're talin chicken and waffles", image_url: 'http://robohash.org/#{i}.png?set=set2&bgset=bg1&size=200x200')
+      name = "test"
+      description = "does the thing do the thing"
+      image_url = 'http://robohash.org/#{i}.png?set=set2&bgset=bg1&size=200x200'
+
+      post "/api/v1/items?name=#{name}&description=#{description}&image_url=#{image_url}"
+
+      json = JSON.parse(response.body, symbolize_names: true)
+
+      expect(response).to have_http_status[201]
+      expect(json[:name]).to eq(name)
+      expect(json[:description]).to eq(description)
+      expect(json[:image_url]).to eq('http://robohash.org/#{i}.png?set=set2&bgset=bg1&size=200x200')
+    end
+  end
+end
+
