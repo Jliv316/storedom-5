@@ -5,11 +5,11 @@ class StorePresenter
     @radius = radius
   end
 
-  def store_data
+  def stores
     json = StoreService.new(zip, radius).data
-    store_info = json
+    store_info = json[:stores]
     stores = store_info.map do |info|
-      Store.new(info, json)
+      Store.new(info)
     end
     return stores
   end

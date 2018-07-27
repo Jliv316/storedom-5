@@ -1,5 +1,5 @@
 class SearchController < ApplicationController
   def index
-    @stores = StorePresenter.new(params[:zip_code]).stores
+    @stores = StorePresenter.new(params[:zip]).stores
   end
 end
