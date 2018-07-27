@@ -4,80 +4,108 @@
   "currentPage": 1,
   "total": 14,
   "totalPages": 1,
-  "queryTime": "0.022",
-  "totalTime": "0.031",
+  "queryTime": "0.021",
+  "totalTime": "0.042",
   "partial": false,
-  "canonicalUrl": "/v1/stores(area(\"80202\",25))?show=storeId,storeType,name&pageSize=14&format=json&apiKey=tq72hpvtbbd4mue6f23kmsw2",
+  "canonicalUrl": "/v1/stores(area(\"80202\",25))?show=city,longName,distance,phone,storeType&pageSize=14&format=json&apiKey=tq72hpvtbbd4mue6f23kmsw2",
   "stores": [
     {
-      "storeId": 1224,
-      "storeType": "Big Box",
-      "name": "BELMAR CO"
+      "city": "Lakewood",
+      "longName": "Belmar",
+      "distance": 5.31,
+      "phone": "303-742-8039",
+      "storeType": "Big Box"
     },
     {
-      "storeId": 211,
-      "storeType": "Big Box",
-      "name": "COLORADO BLVD CO"
+      "city": "Denver",
+      "longName": "Colorado Blvd",
+      "distance": 5.59,
+      "phone": "303-758-5805",
+      "storeType": "Big Box"
     },
     {
-      "storeId": 382,
-      "storeType": "Big Box",
-      "name": "DENVER WEST CO"
+      "city": "Lakewood",
+      "longName": "Denver West",
+      "distance": 8.39,
+      "phone": "303-273-5617",
+      "storeType": "Big Box"
     },
     {
-      "storeId": 209,
-      "storeType": "Big Box",
-      "name": "WESTMINSTER CO"
+      "city": "Westminster",
+      "longName": "Westminster",
+      "distance": 8.52,
+      "phone": "303-426-4434",
+      "storeType": "Big Box"
     },
     {
-      "storeId": 1416,
-      "storeType": "Big Box",
-      "name": "NORTHGLENN CO"
+      "city": "Denver",
+      "longName": "Northglenn",
+      "distance": 9.14,
+      "phone": "303-252-8677",
+      "storeType": "Big Box"
     },
     {
-      "storeId": 217,
-      "storeType": "Big Box",
-      "name": "AURORA CO"
+      "city": "Aurora",
+      "longName": "Aurora",
+      "distance": 9.79,
+      "phone": "303-338-5797",
+      "storeType": "Big Box"
     },
     {
-      "storeId": 210,
-      "storeType": "Big Box",
-      "name": "LITTLETON CO"
+      "city": "Lakewood",
+      "longName": "Littleton",
+      "distance": 10.44,
+      "phone": "303-932-7830",
+      "storeType": "Big Box"
     },
     {
-      "storeId": 1171,
-      "storeType": "Big Box",
-      "name": "SOUTHGLENN CO"
+      "city": "Centennial",
+      "longName": "Southglenn",
+      "distance": 11.02,
+      "phone": "303-797-3246",
+      "storeType": "Big Box"
     },
     {
-      "storeId": 1134,
-      "storeType": "Big Box",
-      "name": "I-70 AND TOWER RD CO"
+      "city": "Aurora",
+      "longName": "I70 & Tower Rd",
+      "distance": 11.65,
+      "phone": "303-373-9284",
+      "storeType": "Big Box"
     },
     {
-      "storeId": 164,
-      "storeType": "Big Box",
-      "name": "SE DENVER CO"
+      "city": "Lone Tree",
+      "longName": "S.E. Denver",
+      "distance": 14.95,
+      "phone": "303-649-9474",
+      "storeType": "Big Box"
     },
     {
-      "storeId": 1232,
-      "storeType": "Warehouse Sale",
-      "name": "DENVER SALE EVENT"
+      "city": "Aurora",
+      "longName": "DENVER SALE EVENT",
+      "distance": 15.34,
+      "phone": "303-340-4971",
+      "storeType": "Warehouse Sale"
     },
     {
-      "storeId": 694,
-      "storeType": "Big Box",
-      "name": "SE AURORA CO"
+      "city": "Aurora",
+      "longName": "S.E. Aurora",
+      "distance": 18.2,
+      "phone": "303-693-0166",
+      "storeType": "Big Box"
     },
     {
-      "storeId": 1410,
-      "storeType": "Big Box",
-      "name": "PARKER CO"
+      "city": "Parker",
+      "longName": "Parker",
+      "distance": 20.82,
+      "phone": "303-840-5501",
+      "storeType": "Big Box"
     },
     {
-      "storeId": 1031,
-      "storeType": "Big Box",
-      "name": "BOULDER CO"
+      "city": "Boulder",
+      "longName": "Boulder",
+      "distance": 22.79,
+      "phone": "303-938-2889",
+      "storeType": "Big Box"
     }
   ],
   "warnings": "Distances are in terms of miles (default)"

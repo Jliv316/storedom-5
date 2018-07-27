@@ -20,6 +20,7 @@ gem 'active_model_serializers'
 gem 'figaro'
 gem 'faraday'
 gem 'json', '>= 2.0.0'
+gem 'will_paginate', '~> 3.1.0'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
